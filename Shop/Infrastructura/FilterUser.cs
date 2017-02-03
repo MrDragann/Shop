@@ -10,7 +10,6 @@ namespace Shop.Infrastructura
     {
         public override void OnAuthorization(AuthorizationContext filterContext)
         {
-
             base.OnAuthorization(filterContext);
         }
 

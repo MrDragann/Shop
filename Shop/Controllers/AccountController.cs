@@ -7,8 +7,9 @@ using System.Web.Mvc;
 
 namespace Shop.Controllers
 {
-    public class HomeController : Controller
+    public class AccountController : Controller
     {
+        // GET: Account
         public ActionResult Index()
         {
             return View();
@@ -28,13 +29,6 @@ namespace Shop.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
 
             return View();
         }
